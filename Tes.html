@@ -21,10 +21,6 @@
 			<a-assets>
 				<a-asset-items id="karubi" src="karubi.gltf"></a-asset-items>
 			</a-assets>
-			<a-entity
-				gps-entity-place="latitude:37.893641;longitude:139.049939;"
-				gltf-model="#karubi">
-			</a-entity>
 			<a-text
 				id="text"
 				value=""
@@ -32,7 +28,14 @@
 				sclae="30 30 30 "
 				position="0 55 0"
 				gps-entity-place="latitude:37.893641;longitude:139.049939;">
-			</a-text>
+			</a-text>			
+			
+			
+			<a-entity
+				gps-entity-place="latitude:37.893641;longitude:139.049939;"
+				gltf-model="#karubi">
+			</a-entity>
+
 			<a-camera gps-camera="maxDistance:5" rotaion-reader></a-camera>
 		</a-scene>
 		<script>
